@@ -28,5 +28,13 @@ tit checkout -b novoBranch
 ~~~
 
 O parâmetro '-b' alterna para 'novoBranch' criando o branch, o mesmo
-acontece com o comando 'git-switch' com o parâmetro '-c'.git c
+acontece com o comando 'git-switch' com o parâmetro '-c'.
+
+~~~bash
+git branch -D nomeBranch
+git branch --delete origin nomeBranch
+~~~
+
+Para apagar um branch é preciso primeiro apagá-lo (1o comando) e depois propagar
+a deleção para o repositório remoto (2o comando ). 
 
