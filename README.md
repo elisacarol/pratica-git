@@ -23,3 +23,10 @@ git commit -a
 O parâmetro '-a' adiciona todos os arquivos modificados e
 não ignorados ao commit atual.
 
+~~~bash
+tit checkout -b novoBranch
+~~~
+
+O parâmetro '-b' alterna para 'novoBranch' criando o branch, o mesmo
+acontece com o comando 'git-switch' com o parâmetro '-c'.git c
+
