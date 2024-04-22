@@ -83,12 +83,18 @@ git rebase -- continue
 
 Finalmente, confira o novo histórico localmente e envie o repositorio remoto forçadamente.
 
+~~~bash
+
 git push --force
+
+~~~
 
 TAGS
 
 ~~~bash
     git tag <tag> <referencia>
+
+~~~
 
 Utilize o comando tag para adicionar marcos ('milestones') a commits ou outras referências no histórico do Git.
 Se você não especificar a referência, o Git vai atribuir a tag ao commit apontado  por HEAD.
@@ -98,6 +104,8 @@ Você deve fazer o push das tags para o repositório remoto separadamente com a 
 ~~~bash
 
     git push --tags
+
+~~~
 
 TODO: apagar tags
 
@@ -120,6 +128,8 @@ Para apagar um branch local:
 ~~~bash
 
     git branch -D <nomeBranch>
+
+~~~
 
 Para apagar um branch remoto através do push:
 
